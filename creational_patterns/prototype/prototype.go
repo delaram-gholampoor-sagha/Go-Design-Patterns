@@ -5,6 +5,11 @@ import (
 	"fmt"
 )
 
+
+// Maintain a set of objects that will be cloned to create new instances
+// Provide a default value of some type to start working on top of it
+// Free CPU of complex object initialization to take more memory resources
+
 type ShirtCloner interface {
 	GetClone(m int) (ItemInfoGetter, error)
 }
