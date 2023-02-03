@@ -19,6 +19,7 @@ type VehicleProduct struct {
 	Structure string
 }
 
+// this can be a clear candidate for singleton !!
 type ManufacturingDirector struct {
 	builder BuildProcess
 }
